@@ -1,0 +1,30 @@
+.contenedor-header{
+    background-color: var(--colorAzul);
+}
+header{
+    width: 90%;
+    margin: auto;
+}
+header h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+header button{
+    background-color: var(--colorVerde);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: var(--colorBlanco);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+header button i{
+    font-size: 0.8rem;
+}
+/* en mobile no se ve */
+header nav{
+    display: none;
+}

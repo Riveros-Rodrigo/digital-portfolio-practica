@@ -1,0 +1,43 @@
+/* seccion sobre mi */
+.contenedor-sobre-mi{
+    background-color: var(--colorVerde);
+}
+.contenedor-sobre-mi main .sobre-mi{
+    width: 90%;
+    margin: auto;
+}
+.contenedor-sobre-mi main .sobre-mi figure{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem;
+}
+.contenedor-sobre-mi main .sobre-mi h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--colorBlanco);
+}
+.contenedor-sobre-mi main .sobre-mi .estrella{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+.contenedor-sobre-mi main .sobre-mi .estrella hr {
+    width: 100%;
+    border-top: 5px solid #fff;
+    margin: 12px 0;
+}
+.contenedor-sobre-mi main .sobre-mi .estrella h4{
+    color: var(--colorBlanco);
+}
+.contenedor-sobre-mi main .sobre-mi p{
+    color: var(--colorBlanco);
+    text-align: center;
+    padding-bottom: 4rem;
+}
+/* seccion portfolio */
+.portfolio{
+    width: 90%;
+    margin: auto;
+}

@@ -1,0 +1,31 @@
+:root {
+    --colorAzul : #2C3E50;
+	--colorVerde : #18BC9C;
+    --colorBlanco: #fff;
+    --familyTitles : 'Montserrat', sans-serif;
+    --familyGeneral: 'Lato', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--familyGeneral);
+}
+h1,h2,h3,h4{
+    font-family: var(--familyTitles); 
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff !important;
+}
+label{
+    color: var(--colorAzul);
+}
+ul{
+    list-style: none;
+}
